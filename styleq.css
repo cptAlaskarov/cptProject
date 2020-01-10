@@ -1,0 +1,26 @@
+body.a{
+  background-image: url("hardware.jpg")
+}
+body.b{
+  background-image: url("software.jpg")
+}
+body.c{
+  background-image: url("hcbg.png")
+}
+body.d{
+  background-image: url("javas.png")
+}
+body.e{
+  background-color: #ffff80
+}
+body.f{
+  background-image: url("triviabg.jpg")
+}
+img.ab{
+  width: 70px;
+  height: 100px;  
+}
+img.ba{
+  width: 70px;
+  height: 100px;
+}
