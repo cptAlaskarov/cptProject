@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Quiz</title>
+<link rel="stylesheet" type="text/css" href="styleq.css">
+<script src="trivia.js">
+</script>
+</head>
+
+<body class="f" LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+	<img src="officelogo2.jpg" alt="Balloons" style="width:80px;height:60px;"><img src="officelogo1.jpg" alt="Balloons" style="width:60px;height:60px;">
+	<h2>The Office (U.S)</h2>
+<FORM name="view">
+	Question: &nbsp;<input type="text" id="quest" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick="main();myFunction();">
+    <br>
+		<br>
+    Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
+		<br>
+		<br>
+		Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "qscore" name="qscore" size="2">
+		<br>
+		<br>
+	<TEXTAREA COLS=31 ROWS=9 id="question"  wrap="virtual"></TEXTAREA>
+	<img class="ab"  style="visibility:hidden" id="img1" src ="check.jpg"/>
+	<img class="ba" style="visibility:hidden" id="img2" src ="x.jpg"/>
+	<br><input type="button" onclick="location.reload()" value="Reset"><br>
+	
+</FORM>
+</body>
+</html>
